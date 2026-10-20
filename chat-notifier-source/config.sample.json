@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "caseSensitive": false,
+  "wholeWord": false,
+  "includeSystemMessages": false,
+  "includeOutgoing": false,
+  "serverUrl": "https://ntfy.sh",
+  "topic": "",
+  "token": "",
+  "priority": 3,
+  "tags": "",
+  "cooldownSeconds": 10,
+  "title": "Minecraft Chat",
+  "keywords": [
+    { "text": "pingisbollen", "enabled": true }
+  ]
+}

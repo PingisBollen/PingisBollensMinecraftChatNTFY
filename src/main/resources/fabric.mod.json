@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "chat_notifier",
+  "version": "${version}",
+  "name": "Chat Notifier",
+  "description": "Client-side keyword notifications through ntfy.",
+  "authors": ["Pingisbollen"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.pingisbollen.chatnotifier.ChatNotifierClient"],
+    "modmenu": ["dev.pingisbollen.chatnotifier.ChatNotifierModMenu"]
+  },
+  "mixins": ["chat-notifier.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "suggests": { "modmenu": "*" }
+}
